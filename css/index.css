@@ -131,20 +131,20 @@ body {
 }
 
 .button {
+    cursor: pointer;
     background: #45fefe;
+    color: #000000;
     width: 90%;
     max-width: 300px;
     height: 51px;
     border-radius: 100px;
     border: none;
-}
-
-.button-label {
-    color: #000000;
+    
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
 }
+
 
 .button-back {
     display: flex;
