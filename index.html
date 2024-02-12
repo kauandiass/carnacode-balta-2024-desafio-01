@@ -4,23 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>IMC</title>
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+    <div id="title-container">
+        <div id="title-area">
+            <h1 id="title">Cálculo de IMC</h1>
+        </div>
     </div>
-    <div>
-        <input class="input" type="text" />
+    <div id="form-container">
+        <div class="input-area">
+            <input class="input-text" type="text" placeholder="Altura">
+        </div>
+        <div class="input-area">
+            <input class="input-text" type="text" placeholder="Peso">
+        </div>
+        <div class="input-area">
+            <input class="input-text" type="text" placeholder="Sexo">
+        </div>
+        <div class="checkbox-area">
+            <input id="input-checkbox" type="checkbox" name="" id="">
+            <label class="input-checkbox-label" for="input-checkbox">Eu tenho 65 anos ou mais</label>
+        </div>
+        <div class="button-area">
+            <button class="button">
+                <label class="button-label" for="">Calcular meu IMC</label>
+            </button>
+        </div>
+        <div class="button-area">
+            <button class="button button-white button-border">
+                <label class="button-label" for="">Entenda o cálculo</label>
+            </button>
+        </div>
     </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
+    <div id="">
+
+    </div>
 </body>
 
 </html>
